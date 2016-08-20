@@ -10,11 +10,11 @@
 	"commandSets": {
 		"`": {"dir": "commands/normal/"},
 		"~": {"dir": "commands/mod/", "color": "blue"},
-                "!": {"dir": "commands/Haruka/", "color": "red"}
+		"!": {"dir": "commands/Haruka/", "color": "red"}
 	},
 	"reloadCommand": "~$reload",
 	"evalCommand": "~$eval",
-	"adminIds": ["Cool Cat"],
+	"adminIds": [""],
 	"logTimestamp": false,
 	"cleverbot": true,
 	"inviteLink": "",
