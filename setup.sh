@@ -7,9 +7,8 @@ patches=$(ls -1 patches/*)
 files=$(ls -1d files/*)
 
 pushd vendor/Mirai
-  git clean -xf
-  npm install --no-optional --production
-  npm install --no-optional eventemitter3
+  git clean -xdf
+  git checkout *
   ln -sf $cmd commands/Haruka
   for p in $patches
   do
@@ -19,4 +18,6 @@ pushd vendor/Mirai
   do
     cp -Rp ../../$f .
   done
+  npm install --no-optional --production
+  npm install --no-optional eventemitter3
 popd
