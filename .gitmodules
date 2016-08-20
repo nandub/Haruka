@@ -1,0 +1,3 @@
+[submodule "vendor/Mirai"]
+	path = vendor/Mirai
+	url = https://github.com/brussell98/Mirai.git

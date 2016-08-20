@@ -1,0 +1,26 @@
+{
+  "name": "haruka",
+  "version": "0.0.1",
+  "description": "My own Mirai bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no tests",
+    "start": "./node_modules/.bin/nf start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandub/Haruka.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Fernando Ortiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nandub/Haruka/issues"
+  },
+  "homepage": "https://github.com/nandub/Haruka#readme",
+  "dependencies": {
+    "foreman": "github:nandub/node-foreman"
+  }
+}
